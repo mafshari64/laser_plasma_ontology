@@ -1,3 +1,19 @@
+'''
+
+Developed by: Masoud Afshari, Brian Marre.
+
+Purpose of the code:
+This Python script shows an example case of running the LaserWakefield simulation  (https://github.com/ComputationalRadiationPhysics/picongpu/tree/dev/share/picongpu/examples/LaserWakefield) 
+with PIConGPU code (https://github.com/mafshari64/picongpu/tree/dev)
+using PICMI standard (https://picongpu.readthedocs.io/en/latest/usage/picmi/index.html). 
+
+We provide a Python script based on the PICMI standard structure to run the simulation.
+For specific parameters not mentioned in the PICMI standard, we use picongpu-exclusive structures such as: picongpu_n_gpus, picongpu_fully_ionized, etc.
+
+'''
+
+
+
 
 # Import necessary PICMI classes from a PIConGPU LWFA simulation based on .param files:
 # https://github.com/ComputationalRadiationPhysics/picongpu/blob/dev/share/picongpu/examples/LaserWakefield/include/picongpu/param
