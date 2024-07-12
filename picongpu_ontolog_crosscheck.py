@@ -2,9 +2,9 @@ import json
 import sys
 
 # Load the dictionary correlated to picongpu_and ontology 
-picongpu_ontology_dictionary_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\picongpu_ontology_dictionary.json"
-picongpu_params_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\pypicongpu.json"
-ontology_params_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\laser-plasma_ontology.jsonld"
+picongpu_ontology_dictionary_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\ontology_git\picongpu_ontology_dictionary.json"
+picongpu_params_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\ontology_git\pypicongpu.json"
+ontology_params_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\ontology_git\laser-plasma_ontology.jsonld"
 
 # Load the dictionary correlated to PIConGPU and ontology
 with open(picongpu_ontology_dictionary_path) as dict_file:
