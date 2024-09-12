@@ -286,7 +286,7 @@ Currently: Masoud Afshari</rdfs:comment>
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_ADKCircPol -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_ADKCircPol">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_models"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Plasma"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
@@ -296,7 +296,7 @@ Currently: Masoud Afshari</rdfs:comment>
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_BSI -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_BSI">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_models"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Plasma"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
@@ -306,7 +306,7 @@ Currently: Masoud Afshari</rdfs:comment>
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_BSIStarkShifted -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_BSIStarkShifted">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_models"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Plasma"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
@@ -316,7 +316,7 @@ Currently: Masoud Afshari</rdfs:comment>
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_BSI_Effective_Z -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_BSI_Effective_Z">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_models"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Plasma"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
@@ -326,7 +326,7 @@ Currently: Masoud Afshari</rdfs:comment>
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_Keldysh -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_Keldysh">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_models"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Plasma"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
@@ -336,7 +336,7 @@ Currently: Masoud Afshari</rdfs:comment>
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_ThomasFermi -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization_ThomasFermi">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_models"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Plasma"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
@@ -624,6 +624,52 @@ Currently: Masoud Afshari</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#checkpoint_backend -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#checkpoint_backend">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#checkpoint_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This option defines which format or system will be used to store checkpoint data. The checkpoint data represents the state of the simulation at specific intervals and is essential for resuming the simulation or recovering from interruptions.
+
+For instance &quot;checkpoint_backend&quot;: &quot;openPMD&quot; indicates that the checkpoint data will be stored using the OpenPMD format. OpenPMD is a standard format designed for high-performance scientific data storage and is often used in high-performance computing applications.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#checkpoint_configuration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#checkpoint_configuration">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#checkpoint_period -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#checkpoint_period">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#checkpoint_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>This option determines the interval, in terms of simulation steps or iterations, at which the simulation state is saved to a checkpoint file. Checkpoints are used to record the state of the simulation at regular intervals, allowing you to resume the simulation from a recent state if needed.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#checkpoint_restart_backend -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#checkpoint_restart_backend">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#checkpoint_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Purpose: This option defines the format or system that will be used to read the checkpoint files when restarting a simulation. It ensures that the simulation can correctly interpret and utilize the checkpoint data to resume from where it left off.
+&quot;checkpoint_restart_backend&quot;: &quot;openPMD&quot; indicates that the simulation will use the OpenPMD format for reading checkpoint data when restarting. This means that the checkpoint files must be stored in the OpenPMD format for the restart process to correctly interpret and load the saved simulation state.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#creator_identifier -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#creator_identifier">
@@ -823,6 +869,85 @@ Provenance Metadata: Tracks the origin and history of the data (e.g., processing
     
 
 
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_bin_count -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_bin_count">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>This option determines how the range of energy values is divided into discrete intervals or bins when generating the energy histogram. Each bin represents a range of energy values, and the histogram displays the number of particles that fall into each bin.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_filter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_filter">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>his option determines which subset of particles should be considered when generating the energy histogram. The filter defines the criteria for including particles in the histogram, allowing for focused analysis on specific particle groups or states.
+For instance, (&quot;all&quot;) indicates that all particles in the simulation, regardless of any specific properties or conditions, will be included in the energy histogram. No additional filtering criteria are applied.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_max_energy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_max_energy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>This option sets the higher bound of the energy range for which the histogram will collect and display data. It defines the highest energy value that will be included in the histogram bins. 
+For instance, if the highest energy is set to 1000.0, the histogram will show up to 1000 and ignore all higher energy values. If particle energies are above this maximum value, they will not be represented in the histogram.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_min_energy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_min_energy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>This option sets the lower bound of the energy range for which the histogram will collect and display data. It defines the smallest energy value that will be included in the histogram bins.
+For instance, if the minimum energy is set to 0.0, the histogram will start at zero and include all higher energy values. If particle energies are below this minimum value, they will not be represented in the histogram.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_period -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_period">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>his option determines the interval at which the simulation will output or update the energy histogram data. The value specifies the number of simulation steps or iterations between histogram updates.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_plot_configuration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_plot_configuration">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_species_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_species_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#energy_histogram_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This option determines which particle species&apos; energy distribution will be computed and visualized in a histogram. The histogram is a graphical representation showing the frequency of particles within specific energy ranges (bins).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#facility_address -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#facility_address">
@@ -916,15 +1041,35 @@ Provenance Metadata: Tracks the origin and history of the data (e.g., processing
     
 
 
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_current -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_current">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_degree -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_degree">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>the (average) number of electrons removed per ion (atom) which  is :
 
   Z - bound_electrons, (look at data property : ionization_number_of_bound_electrons) where Z is  atomic number (number of protonsin the nucleus of a atom of a element).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_model -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_model">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Simulation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -946,7 +1091,7 @@ Provenance Metadata: Tracks the origin and history of the data (e.g., processing
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Simulation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:comment>the initial number of bound electrons, the charge state is Z - bound_electrons, e.g. bound_electrons for carbon could be 6 to 0.</rdfs:comment>
+        <rdfs:comment>the initial number of bound electrons, the ionization degree is Z - bound_electrons. For instance, bound_electrons for carbon ions could be 6 to 0.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -958,6 +1103,17 @@ Provenance Metadata: Tracks the origin and history of the data (e.g., processing
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Plasma"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>which species does the ionization</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_via_ground_state -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#ionization_via_ground_state">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Ionization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment>ionization process starting from the ground state of a species</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -1380,6 +1536,47 @@ and the carrier wave’s oscillations.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macro_particle_count_configuration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macro_particle_count_configuration">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Macro-particles are computational entities that represent a large number of real particles. Tracking the count of macro-particles for specific species helps in understanding the dynamics and behavior of that species in the simulation.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macro_particle_count_period -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macro_particle_count_period">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macro_particle_count_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>This option determines how often (in simulation  time steps) the simulation will output or log the count of macro-particles, which are representative particles used in the simulation to model the behavior of a large number of real particles.
+
+Purpose and Use Cases:
+
+Monitoring: Tracking the number of macro-particles at specified intervals helps in monitoring the stability and accuracy of the simulation. It can show how well the simulation is converging or if there are any issues with particle loss or addition.
+Diagnostics: Regularly outputting macro-particle counts can assist in diagnosing problems related to particle conservation, numerical stability, or resource usage.
+Performance Analysis: Understanding how the number of macro-particles evolves can provide insights into the simulation&apos;s performance and help in optimizing particle and computational resource management.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macro_particle_count_species_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macro_particle_count_species_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macro_particle_count_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This option determines which type of macro-particles (i.e., which species) the simulation should track when reporting the particle count. It specifies the particle species whose count is to be recorded or analyzed.
+
+For instance &quot;macro_particle_count_species_name&quot;: &quot;electron&quot; means that the macro-particle count statistics will be recorded specifically for electrons.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macroparticle -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macroparticle">
@@ -1396,6 +1593,17 @@ and the carrier wave’s oscillations.</rdfs:comment>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Macroparticle"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <owl:backwardCompatibleWith>the attribute NAME (reference) of a macroparticle</owl:backwardCompatibleWith>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macroparticle_attributes_bound_electrons -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macroparticle_attributes_bound_electrons">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#macroparticle_attributes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Macroparticle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>the attribute NAME that refer to the bound electrons of a macroparticle. It represents the name or reference to the PIC code for the attribute. However, the actual data type that represents can be a numerical value like a float or an integer in the code.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -1433,52 +1641,57 @@ and the carrier wave’s oscillations.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#minimum_weight -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_property"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Simulation"/>
-        <rdfs:comment>If we have moving Window in the simulation</rdfs:comment>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#minimum_weight">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity_enabled -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity_enabled">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_property"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Simulation"/>
+        <rdfs:comment>In many plasma physics simulations, particularly those involving relativistic particle beams or laser pulses, the region of interest is a small portion of the entire simulation domain. For example, in laser-plasma simulations, the laser pulse and its immediate vicinity (where the most important interactions occur) represent a tiny fraction of the whole space.
+
+The moving window technique slides the simulation domain along with the advancing wavefront (such as a laser pulse) or relativistic particles. As the particles or wave propagate, instead of simulating a large, static spatial domain (which could be computationally expensive), the simulation window moves with the speed of light (or close to it). This ensures that the computational resources are concentrated on the active region where the interactions are happening, reducing the size of the grid that needs to be simulate</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_enabled -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_enabled">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Simulation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity_x -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_move_point -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity_x">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_move_point">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Simulation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>when the laser reaches move_point  then simulation window starts moving along with the laser in the direction of laser.
+Before the window starts moving, the simulation runs with a fixed domain size. The window remains stationary until the light (or laser pulse) reaches the specified move_point position. Once the light reaches this point, the simulation window starts sliding along with the light pulse at the speed of light.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity_y -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_stop_iteration -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity_y">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_stop_iteration">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Simulation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity_z -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity_z">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#moving_window_velocity"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Simulation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>when to stop moving the simulation window based on the simulation iteration number (or time steps). If set to None, the window keeps moving for the entire simulation.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -1494,6 +1707,53 @@ and the carrier wave’s oscillations.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#openPMD_configuration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#openPMD_configuration">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#openPMD_extension -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#openPMD_extension">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#openPMD_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Purpose: This option defines the file extension for the output files generated by the simulation when using the OpenPMD format. It helps in determining the format of the data files and how they should be recognized or handled by other software tools.
+
+Value (&quot;bp&quot;): The value &quot;bp&quot; stands for Blueprint, which is a file format used by OpenPMD for storing hierarchical scientific data. This extension indicates that the files will be in Blueprint format, a specific flavor of HDF5 used for high-performance scientific data storage.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#openPMD_file -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#openPMD_file">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#openPMD_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Purpose: This option sets the base name for the files where the simulation data will be saved. The full filenames will be constructed by appending additional information, such as step numbers or file extensions, to this base name.
+
+&quot;openPMD_file&quot;: &quot;simData&quot;: The value &quot;simData&quot; means that the output files will be named starting with &quot;simData&quot;. For instance, if the simulation data is saved every 100 steps as specified by the openPMD_period, the resulting files might be named simData0001.h5, simData0002.h5, and so on.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#openPMD_period -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#openPMD_period">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#openPMD_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>This option determines the interval (in terms of simulation steps or iterations) at which the simulation state is written to disk in the OpenPMD format. OpenPMD is a standard format for scientific data management in high-performance computing. It defines how frequently data is outputted and saved for subsequent analysis or visualization.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_bunch_properties -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_bunch_properties">
@@ -1504,29 +1764,45 @@ and the carrier wave’s oscillations.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_amplitude -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_center_front -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_amplitude">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_center_front">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_particle_shape"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Species"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:comment>The amplitude (A) represents the maximum value of the Gaussian curve, which scales the height of the distribution. 
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>This parameter defines the center position of the Gaussian profile for particles on the front side of a given region or domain. 
+center (μ) is the point around which the Gaussian curve is symmetrically distributed.
+
 
 f(x) = A*exp F*0.5* [  (x−μ) / (σ) ]^n</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_center -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_center_rear -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_center">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_center_rear">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_particle_shape"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Species"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <rdfs:comment>center (μ) is the point around which the Gaussian curve is symmetrically distributed.
+        <rdfs:comment>This parameter defines the center position of the Gaussian profile for particles on the rear side of a given region or domain. 
+center (μ) is the point around which the Gaussian curve is symmetrically distributed.
 
 
 f(x) = A*exp F*0.5* [  (x−μ) / (σ) ]^n</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_density_amplitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_density_amplitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_particle_shape"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Species"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>The amplitude (n0) represents the maximum value of the Gaussian density distribution, which scales the height of the distribution. 
+
+n(x) = n0*exp F*0.5* [  (x−μ) / (σ) ]^n</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -1566,13 +1842,15 @@ f(x) = A*exp F*0.5* [  (x−μ) / (σ) ]^n</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_sigma -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_sigma_front -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_sigma">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_sigma_front">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_particle_shape"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Species"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:comment>the standard deviation (σ) of the Gaussian distribution which determines the spread or width of the Gaussian distribution.
+        <rdfs:comment>the standard deviation (σ) of the Gaussian profile for particles on the front side.
+
+(σ) of the Gaussian distribution which determines the spread or width of the Gaussian distribution.
 
 
 f(x) = A*exp F*0.5* [  (x−μ) / (σ) ]^n</rdfs:comment>
@@ -1580,9 +1858,330 @@ f(x) = A*exp F*0.5* [  (x−μ) / (σ) ]^n</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_sigma_rear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#particle_shape_gaussian_sigma_rear">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_particle_shape"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Species"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>the standard deviation (σ) of the Gaussian profile for particles on the rear side.
+
+(σ) of the Gaussian distribution which determines the spread or width of the Gaussian distribution.
+
+
+f(x) = A*exp F*0.5* [  (x−μ) / (σ) ]^n</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_configuration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_configuration">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_filter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_filter">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Purpose: This option determines which particles are included in the phase space analysis based on specific criteria. The filter defines the subset of particles to be analyzed or visualized in the phase space plot.
+
+Value (&quot;all&quot;): The value &quot;all&quot; means that all particles in the simulation will be included in the phase space analysis. No additional filtering criteria are applied.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_max -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_max">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>This option defines the upper limit of the data range for the phase space plot. It ensures that only data values less than or equal to this maximum value are included in the analysis or plot.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_min -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_min">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>This option defines the lower limit of the data range for the phase space plot. It ensures that only data values greater than or equal to this minimum value are included in the analysis.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_momentum -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_momentum">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This option determines which component of the momentum vector will be represented in the phase space analysis. The phase space plot typically includes both spatial coordinates and momentum components of particles. By specifying a particular momentum component, you define which aspect of the momentum vector will be visualized or analyzed.
+ eg.py or px</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_period -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_period">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>This option determines the interval (in terms of simulation steps or iterations) at which the simulation will output or update the phase space data. It defines how frequently the phase space information will be captured and saved.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_space -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_space">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This option determines which spatial dimension will be represented in the phase space analysis. The phase space plot typically includes spatial coordinates and momentum or energy components of particles. By specifying a particular spatial dimension, you define which axis or coordinate in the spatial domain will be included in the analysis.
+.eg.&quot;x&quot; or &quot;z&quot;</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_species_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_species_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#phase_space_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This option determines which species of particles will be included in the phase space analysis. 
+The phase space plot typically represents particles in terms of their position and momentum or energy.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#plasma_properties -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#plasma_properties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_EM_field_scale_channel_i -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_EM_field_scale_channel_i">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>It refers to a set of options for normalizing electromagnetic (EM) fields in channel i, particularly for visualizing or exporting data in physically meaningful units that are scaled appropriately. The different values allow the user to choose how to scale or normalize the EM fields based on the typical physical quantities relevant to the simulation type. For PIConGPU code for instance some option can be:
+
+-1: Auto:
+
+Description: This mode automatically enables adaptive scaling for each output, which means the fields will be scaled dynamically based on the simulation data to provide an appropriate range for visualization or output.
+
+6: Custom:
+
+Description: This mode allows the user to provide custom normalization factors for the fields using customNormalizationSI. This is useful when none of the predefined options fit your simulation setup, and you want to specify normalization constants manually.
+Use Case: When you have specific physical scales in mind that are not covered by the other options, you can define them explicitly.
+7: Incident:
+
+Description: Normalizes the fields based on the amplitude of the incident electromagnetic wave (e.g., a laser). It uses the maximum amplitude from all enabled incident field profiles, excluding &quot;Free&quot; profiles.
+Use Case: This is particularly useful in simulations where a laser or other incident electromagnetic field is driving the system, such as laser-plasma interaction studies.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_axis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_axis">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>the output of a parameter (e.g. magnetic field or electric field) in 2D such as xy, yz, yz, etc as png images.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_custom_normalization_SI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_custom_normalization_SI">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>providing normalization factors for the electromagnetic (EM) fields, particle densities, or other simulation data before generating PNG images. These normalization factors are given in SI units (International System of Units).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_folder_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_folder_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This option determines the directory name in which all the PNG images generated by the PNG plugin for the simulation will be stored. The images might represent fields like electric and magnetic fields, particle densities, velocities, or other simulation data, depending on the configuration.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_period -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_period">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>the period of the output as png images of a parameter such as  magnetic field or electric field</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>output a parameter such as  magnetic field or electric field as png images.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_pre_channel_i -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_pre_channel_i">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>it is specifying how the data for Channel i is presented or even computed before it is visualized and exported as a PNG image.eg, eg to visualize the x-component of the electric field (Ex) or its square.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_pre_channel_i_color_scale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_pre_channel_i_color_scale">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>this controls the color scale used for visualizing the data in Channel i when exporting simulation data as PNG images.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_pre_channel_i_opacity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_pre_channel_i_opacity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>This option is used to set the opacity for the data being visualized in Channel i before exporting it as a PNG image. Channel i typically corresponds to one of the physical quantities being visualized, such as the electric or magnetic field.
+
+Opacity Value: The opacity value is typically specified as a float between 0 (completely transparent) and 1 (completely opaque). This value determines how much of Channel 1&apos;s data is visible in the final PNG image.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_pre_particle_density_color -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_pre_particle_density_color">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This option determines the color scale used to represent particle density in the exported PNG images. It specifies a particular color scale for this visualization e.g. &quot;colorScales::grayInv&quot; or &quot;colorScales::green&quot;.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_pre_particle_density_opacity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_pre_particle_density_opacity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>The option determines the transparency level of the particle density data when exporting PNG images. Opacity controls how &quot;see-through&quot; a layer is, and in this context, it refers to the density visualization.
+
+Visualizing Particle Densities: When visualizing particle densities in a plasma or other complex systems, there might be overlapping regions where particles are densely packed or sparsely distributed. By adjusting the opacity, you can better represent these density variations in the exported images.
+
+Blending Data Layers: In some simulations, particle density is just one of several datasets being visualized (e.g., electric fields, magnetic fields, etc.). Adjusting the opacity helps blend these layers together in a way that makes the image more informative and easier to interpret.
+
+Use Case:
+Tuning Visualization: If your goal is to generate clear and informative images from a complex simulation with overlapping data (e.g., visualizing both electric fields and particle densities), this option allows you to adjust how prominently the particle densities are represented in the image.
+
+Overlaying Multiple Data Sets: If you&apos;re visualizing multiple variables and want to ensure they don&apos;t visually obscure each other, you can adjust the opacity of the particle densities to balance the visual impact of each dataset.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_scale_image -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_scale_image">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Scales the simulation data to a suitable range before exporting it as a PNG image.
+
+Purpose: Ensures that the generated images accurately reflect the data by mapping the simulation values to a color scale in a way that enhances visibility. The data values (e.g., electric or magnetic field strength, particle density) in a simulation can have a wide range of magnitudes. To create a meaningful image, these values need to be mapped to a limited range of colors,</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_scale_to_cellsize -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_scale_to_cellsize">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment>The purpose of scaling to cell size can be to standardize or normalize the visualization of certain quantities across different regions of the simulation grid, particularly if the grid is non-uniform (i.e., if the cells have different sizes). When cells are scaled differently, this feature helps in ensuring that comparisons of data from different parts of the grid are meaningful. Essentially, this means that the value of a quantity (e.g., field strength, particle density) in each cell might be normalized by the size of that cell before being exported as an image.
+
+Scenarios where png_plugin_SCALE_TO_CELLSIZE is useful:
+Non-Uniform Grid: If the simulation domain has varying cell sizes (such as in adaptive mesh refinement), this option ensures that data is correctly normalized and visualized so that smaller or larger cells don&apos;t distort the representation.
+
+Uniform Representation: Even in a uniform grid, scaling to cell size can help create more standardized visualizations, making it easier to compare different regions of the simulation or different simulation setups.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_slice_point -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_slice_point">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>This determines the position along one axis (usually the z-axis or another chosen axis) where a 2D slice of the 3D simulation data is taken. This 2D slice is then used to generate the PNG image. It has any value between 0 and 1.
+
+3D to 2D Visualization: Many plasma and laser simulations are conducted in 3D, but visualizing all three dimensions in a single image can be challenging. By taking a 2D slice at a specific point along one axis, the data can be reduced to a 2D image that is easier to interpret. The png_slice_point specifies the exact location of this slice.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_species_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_species_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This option determines which particle species (e.g., electrons, protons, ions, positrons, etc.) will be visualized in the PNG image when exporting particle-related data, such as particle densities, velocities, or energies. This allows for focused visualization of a specific type of particle.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_white_box_per_GPU -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_white_box_per_GPU">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#png_plot_configuration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment>in PIC simulation benefiting from GPU accelerators, often run on multiple GPUs, with the simulation space divided into subdomains, each handled by a different GPU. This option controls whether or not to draw a white box around the region of the simulation handled by each GPU when exporting the data as an image.
+
+false: When this option is set to &quot;false&quot;, the PNG image exported will not have a white box outlining the area processed by each GPU. This results in a seamless image without any visible indication of the GPU boundaries.
+
+true: If the option is set to &quot;true&quot;, the exported PNG images will have a white border drawn around the regions that are processed by different GPUs. This can help visualize how the computational domain is divided among the GPUs.</rdfs:comment>
+    </owl:DatatypeProperty>
     
 
 
@@ -1672,34 +2271,12 @@ f(x) = A*exp F*0.5* [  (x−μ) / (σ) ]^n</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_bound_electron -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_bound_electron">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Recombination"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Laser_Plasma_Physics"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>recombination via bound electrons known as charge exchange</rdfs:comment>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_dielectronic -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_dielectronic">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_free_electron"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_via_free_electron"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Laser_Plasma_Physics"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_free_electron -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_free_electron">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Recombination"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Laser_Plasma_Physics"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>recombination via free electron</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -1707,7 +2284,7 @@ f(x) = A*exp F*0.5* [  (x−μ) / (σ) ]^n</rdfs:comment>
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_radiative -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_radiative">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_free_electron"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_via_free_electron"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Laser_Plasma_Physics"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>radiative recombination</rdfs:comment>
@@ -1718,10 +2295,32 @@ f(x) = A*exp F*0.5* [  (x−μ) / (σ) ]^n</rdfs:comment>
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_threebody -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_threebody">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_free_electron"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_via_free_electron"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Laser_Plasma_Physics"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>threebody recombination</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_via_bound_electron -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_via_bound_electron">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Recombination"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Laser_Plasma_Physics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>recombination via bound electrons known as charge exchange</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_via_free_electron -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#recombination_via_free_electron">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Recombination"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Laser_Plasma_Physics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>recombination via free electron</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -2095,9 +2694,14 @@ simulation box which defines the min value in Z direction.</rdfs:comment>
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_minimum_weight -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_minimum_weight">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_property"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#minimum_weight"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Simulation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>minimum_weight defines the threshold below which macro-particles are removed from the simulation.
+
+In particle-in-cell (PIC) simulations, particles are not represented individually but rather as &quot;macro-particles.&quot; Each macro-particle in the simulation represents a large number of real particles, and it has a corresponding weight that describes the number of real particles it represents.
+
+minimum_weight specifies the smallest allowed weight for a macro-particle in the simulation. If the weight of a macro-particle falls below this threshold, the particle might be removed.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -2210,38 +2814,6 @@ Number of cells along Z (number of grid nodes = nz+1)</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output_png -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output_png">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
-        <rdfs:comment>output as png images of a parameter such as  magnetic field or electric field</rdfs:comment>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output_png_axis_2D -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output_png_axis_2D">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output_png"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>the output of a parameter (e.g. magnetic field or electric field) in 2D such as xy, yz, yz, etc as png images.</rdfs:comment>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output_png_period -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output_png_period">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_output_png"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Output"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:comment>the period of the output as png images of a parameter such as  magnetic field or electric field</rdfs:comment>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_particle_per_cell -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#simulation_particle_per_cell">
@@ -2294,9 +2866,9 @@ Number of cells along Z (number of grid nodes = nz+1)</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_atomicMass -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_atomic_mass -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_atomicMass">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_atomic_mass">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_properties"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Species"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
@@ -2305,9 +2877,9 @@ Number of cells along Z (number of grid nodes = nz+1)</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_atomicNumber -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_atomic_number -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_atomicNumber">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_atomic_number">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_properties"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Species"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
@@ -2360,9 +2932,9 @@ Number of cells along Z (number of grid nodes = nz+1)</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_energyGain -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_energy-gain -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_energyGain">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_energy-gain">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_properties"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Laser_Plasma_Application"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
@@ -2387,9 +2959,9 @@ Plasma Properties: The density and temperature of the target plasma can affect h
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_massDensity -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_mass_density -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_massDensity">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_mass_density">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_properties"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Species"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
@@ -2420,9 +2992,9 @@ Plasma Properties: The density and temperature of the target plasma can affect h
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_numberDensity -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_number_density -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_numberDensity">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_number_density">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#species_properties"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Species"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
@@ -2578,9 +3150,9 @@ In PIConGPU for instance we have : This property defines the name of the C++ spe
     
 
 
-    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#target_electricalConductivity -->
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#target_electrical_conductivity -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#target_electricalConductivity">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#target_electrical_conductivity">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#target_properties"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Laser_Plasma_Application"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
@@ -2607,6 +3179,17 @@ In PIConGPU for instance we have : This property defines the name of the C++ spe
         <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Target"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>the temperature at which target changes state from solid to liquid.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#target_number_density -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#target_number_density">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#target_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/afshar87/ontologies/2024/3/Laser-Plasma_ontology#Target"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>number density of a target (m^-3,  cm^-3, etc).</rdfs:comment>
     </owl:DatatypeProperty>
     
 

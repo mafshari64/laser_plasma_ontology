@@ -1,10 +1,26 @@
+
+
+#  python   picongpu_ontology_crosscheck.py
+
+
+
+# This python snippet checks 3 files as seen in the following to see if there is a parameter missed in picongpu_ontology_dictionary.json or not.
+
 import json
 import sys
 
-# Load the dictionary correlated to picongpu_and ontology 
-picongpu_ontology_dictionary_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\ontology_git\picongpu_ontology_dictionary.json"
-picongpu_params_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\ontology_git\pypicongpu.json"
+# Load the dictionaries correlated to picongpu and laser-plasma_ontology:
+
 ontology_params_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\ontology_git\laser-plasma_ontology.jsonld"
+
+# picongpu_ontology_dictionary_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\ontology_git\picongpu_ontology_dictionary.json"
+picongpu_ontology_dictionary_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\ontology_git\picongpu_ontology_dictionary-v2.json"
+
+# picongpu_params_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\ontology_git\pypicongpu.json"
+picongpu_params_path = r"P:\afshari\Projects\HZDR_Project\ontology_laser-plasma\ontology_git\pypicongpu-v2.json"
+
+######
+
 
 # Load the dictionary correlated to PIConGPU and ontology
 with open(picongpu_ontology_dictionary_path) as dict_file:
@@ -69,15 +85,32 @@ def process_correlation_dict(correlation_dict, prefix=""):
 # Flatten the correlation dictionary
 flat_correlation_list = process_correlation_dict(correlation_dict)
 
-# The section `# Define parameters that require special handling` is creating a dictionary named
+# The section "Define parameters that require special handling" is creating a dictionary named
 # `params_requiring_special_handling` that contains specific instructions for handling a particular
 # parameter during the data processing.
+
 # Define parameters that require special handling
 params_requiring_special_handling = {
+
+        "ontology_param": "laser_propagation_direction_x", 
+        "laser.propagation_direction[0].component": {
+        "value_map": {0: "false", 1: "true"}     },
+        "ontology_param": "laser_propagation_direction_y", 
+        "laser.propagation_direction[1].component": {
+        "value_map": {0: "false", 1: "true"}     },
+        "ontology_param": "laser_propagation_direction_z", 
+        "laser.propagation_direction[2].component": {
+        "value_map": {0: "false", 1: "true"}     },
+
+    "laser.polarization_direction[0].component": {
+        "ontology_param": "laser_polarization_direction_x", 
+        "value_map": {0: "false", 1: "true"}     },
+    "laser.polarization_direction[1].component": {
+        "ontology_param": "laser_polarization_direction_y", 
+        "value_map": {0: "false", 1: "true"}     },
     "laser.polarization_direction[2].component": {
-        "ontology_param": "laser_polarization_direction_z",
-        "value_map": {0: "false", 1: "true"}
-    }
+        "ontology_param": "laser_polarization_direction_z", 
+        "value_map": {0: "false", 1: "true"}     }
 }
 
 
@@ -201,9 +234,13 @@ def cross_check_params(picongpu_params, ontology_params, flat_correlation_list):
         # Check for special handling
         if picongpu_param in params_requiring_special_handling:
             special_handling = params_requiring_special_handling[picongpu_param]
-            if ontology_param == special_handling["ontology_param"]:
-                picongpu_value = special_handling["value_map"].get(picongpu_value, picongpu_value)
-                expected_type = bool if ontology_type == 'boolean' else str
+            # Ensure that special_handling is a dictionary and contains "ontology_param"
+            if isinstance(special_handling, dict) and "ontology_param" in special_handling:
+                if ontology_param == special_handling["ontology_param"]:
+                    picongpu_value = special_handling["value_map"].get(picongpu_value, picongpu_value)
+                    expected_type = bool if ontology_type == 'boolean' else str
+                else:
+                    expected_type = map_ontology_type_to_python(ontology_type)
             else:
                 expected_type = map_ontology_type_to_python(ontology_type)
         else:
